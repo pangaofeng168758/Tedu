@@ -6,8 +6,12 @@
 # f = open('file','w')
 f1 = open('test.txt','w')
 f2 = open('test01.txt','w+')
-f3 = open('test01.txt','r+')
-f = open('file', 'a')  #追加的形式不会被覆盖
+
+
+
+#第三套方案:
+# f3 = open('test01.txt','r+')
+# f = open('file', 'a')  #追加的形式不会被覆盖
 
 print(f)
 f.close()
