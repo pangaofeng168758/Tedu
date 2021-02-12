@@ -34,6 +34,7 @@
 # f.close()
 
 
+
 #调用flush()主动刷新缓冲
 # f = open("file", 'w')
 # while True:
