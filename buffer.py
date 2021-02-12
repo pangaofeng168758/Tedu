@@ -35,12 +35,12 @@
 
 
 #调用flush()主动刷新缓冲
-f = open("file", 'w')
-while True:
-    data = input(">>")
-    if not data:
-        break
-    f.write(data)
-    f.flush() #调用flush()主动刷新缓冲
-
-f.close()
+# f = open("file", 'w')
+# while True:
+#     data = input(">>")
+#     if not data:
+#         break
+#     f.write(data)
+#     f.flush() #调用flush()主动刷新缓冲
+#
+# f.close()
