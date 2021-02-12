@@ -37,17 +37,6 @@
 #     f.close()
 
 
-# f = open("dict.txt", 'r')
-# word = input("请输入单词：")
-# while True:
-#     line = f.readline()
-#     if not line:
-#         print("没找到")
-#         break
-#     if line[:line.find(" ")] == word:
-#         print(line[line.find(" "):].lstrip())
-# f.close()
-
 while True:
     data = input(">>")
     f = open('dict.txt')
